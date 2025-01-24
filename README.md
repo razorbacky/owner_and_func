@@ -25,7 +25,7 @@ fn takes_ownership(some_string: String) {
 
 fn makes_copy(some_integer: i32) {
     let result = some_integer + 5;  // 기존 x와 함수에서 출력하는 some_integer의 비교를 위해 기존값에 5를 더함
-    println!("{result}"); some_integer의 인자인 x, 즉 5가 되고 some_integer + 5, 합이 "10" 이 출력됨
+    println!("{result}"); // some_integer의 인자인 x, 즉 5가 되고 some_integer + 5, 합이 "10" 이 출력됨
 }
 ```
 
